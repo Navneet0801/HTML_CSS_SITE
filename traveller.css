@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+}
+
+
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+}
+
+.page_logo {
+    font-family: 'Oleo Script', cursive;
+    padding: 10px;
+    color: rgb(245, 243, 160);
+    font-size: 50px;
+    text-shadow: 1px 1px 2px  rgb(0, 0, 0);
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    justify-content: end;
+}
+
+header ul li {
+    margin: 10px;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: rgb(237, 235, 97);
+}
+
+header ul li a:hover {
+    color: rgb(193, 189, 9);
+}
+
+.first{
+    width: 800px;
+    background-color: rgba(51, 47, 47, 0.8);
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+    padding: 20px;
+    border-radius: 12px;
+    position: absolute;
+    margin: 100px auto 90px 300px;
+}
+
+header {
+    background-image: url(/img/background.webp);
+    background-position: center;
+    background-size: cover;
+    border-bottom: 5px solid rgb(237, 235, 97);
+    
+}
+
+.firstSection {
+    height: 500px;
+    color: aliceblue;
+}
+
+#first {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    margin: 10px;
+}
+
+#second {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 10px;
+}
+
+#third {
+    background-color: rgb(237, 235, 97);
+    width: 20%;
+    margin: 10px;
+}
+
+#third a {
+    text-decoration: none;
+    color: black;
+}
+
+#third:hover {
+    background-color: rgb(193, 189, 9);
+}
+
+.second img {
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 9px rgb(0, 0, 0);
+}
+
+.second div {
+    text-align: center;
+    width: 400px;
+    height: 300px;
+}
+
+.second h1{
+    margin: 10px;
+    padding: 10px;
+    padding-top: 20px;
+}
+
+.flex2 {
+    display: flex;
+    margin: 40px;
+}
+
+.flex2 div {
+    margin: 40px;
+    margin-top: 10px;
+}
+
+.flex2 div p {
+    margin: 20px;
+}
+
+footer {
+    background-color: rgb(236, 233, 107);
+    padding: 10px;
+}
+
+footer a {
+    font-size: 40px;
+    text-align: center;
+    margin-right: 40px;
+    text-decoration: none;
+    color: rgb(16, 19, 56);
+}
+
+footer a:visited {
+    color: rgb(16, 19, 56);
+}
