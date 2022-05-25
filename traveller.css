@@ -51,7 +51,7 @@ header ul li a:hover {
 }
 
 header {
-    background-image: url(/img/background.webp);
+    background-image: url(img/background.webp);
     background-position: center;
     background-size: cover;
     border-bottom: 5px solid rgb(237, 235, 97);
